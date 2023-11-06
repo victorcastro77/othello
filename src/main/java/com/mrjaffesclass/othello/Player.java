@@ -1,4 +1,4 @@
-package com.mrjaffesclass.othello;
+package main.java.com.mrjaffesclass.othello;
 
 /**
  * Player object. Students will extend this class
@@ -42,8 +42,9 @@ public class Player
    *          if no move is available
    */
   Position getNextMove(Board board) {
+    
     return null;
-  };
+  }
   
   /**
    * Are this player and the passed-in player the same?

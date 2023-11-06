@@ -4,7 +4,7 @@
  * All rights reserved
  */
 
-package com.mrjaffesclass.othello;
+package main.java.com.mrjaffesclass.othello;
 
 import java.util.ArrayList;
 

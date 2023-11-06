@@ -3,7 +3,7 @@
  * Copyright 2017 Roger Jaffe
  * All rights reserved
  */
-package com.mrjaffesclass.othello;
+package main.java.com.mrjaffesclass.othello;
 
 /**
  * Othello class project competition
@@ -18,7 +18,7 @@ public class Othello {
   public static void main(String[] args) {
     Controller c = new Controller( 
       new TestPlayer(Constants.BLACK), 
-      new TestPlayer(Constants.WHITE)
+      new MyAi(Constants.WHITE)
     );
     c.displayMatchup();
     int result = c.run();
